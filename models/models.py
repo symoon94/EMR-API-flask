@@ -9,7 +9,7 @@ class Person(Base):
     gender_concept_id = Column(Integer())
     race_concept_id = Column(Integer())
     ethnicity_concept_id = Column(Integer())
-
+    year_of_birth = Column(Integer())
 
 class Death(Base):
     __tablename__ = 'death'

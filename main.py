@@ -6,7 +6,6 @@ from sqlalchemy.orm import scoped_session, sessionmaker
 
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-from flask_migrate import Migrate
 from sqlalchemy import create_engine
 import psycopg2
 import argparse
