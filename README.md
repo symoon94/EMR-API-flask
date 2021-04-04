@@ -52,6 +52,9 @@ API 실행:
     - 민족별 방문 수
     - 방문시 연령대(10세 단위)별 방문 수
 
+<p align="center"><img width="80%" src="assets/1.png" /></p>
+<p align="center"><img width="80%" src="assets/2.png" /></p>
+
 
 ## Author
 

@@ -74,7 +74,7 @@ def get_visit():
         ethnicity_visit = json.loads(json.dumps(dict(ethnicity_visit)))
         ages_visit = json.loads(json.dumps(ages_visit))
 
-        return jsonify({"visit_type": visit, "gender_visit_occurence": gender_visit, "race_visit_occurence": race_visit, "ethnicity_visit_occurence": ethnicity_visit, "ages_visit": ages_visit})
+        return jsonify({"visit_type": visit, "gender_visit_occurence": gender_visit, "race_visit_occurence": race_visit, "ethnicity_visit_occurence": ethnicity_visit, "ages_visit_occurence": ages_visit})
 
 
 @ app.route('/api')
